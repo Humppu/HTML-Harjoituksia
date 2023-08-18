@@ -1,3 +1,62 @@
 #nimi {
     color:#2ed406;
 }
+
+#nimi2 {
+    font-family:'Bookman Old Style';
+}
+#oranssi {
+    color:#ff6a00;
+    font-size:60px;
+}
+#sininen {
+    color:#0026ff;
+    font-size:55px;
+}
+#vihreä {
+    color:#2ed406;
+    font-size:50px;
+}
+#keltainen {
+    color: #ffd800;
+    font-size:45px;
+}
+#harmaa {
+    color:#808080;
+    font-size:40px;
+}
+#violetti {
+    color:#b200ff;
+    font-size:35px;
+}
+#turkoosi {
+    color:#00ffff;
+    font-size:30px;
+}
+#musta {
+    color:#000000;
+    font-size:25px;
+}
+#viininpunainen {
+    color:#801c1c;
+    font-size:20px;
+}
+#lime{
+    color:#48fb57;
+    font-size:15px;
+}
+#fontti1 {
+    font-family:fantasy;
+}
+#fontti2 {
+    font-family:'Freestyle Script';
+}
+#fontti3 {
+    font-family:Gabriola;
+}
+#fontti4 {
+    font-family: 'French Script MT';
+}
+#fontti5 {
+    font-family:'Cascadia Code';
+}
