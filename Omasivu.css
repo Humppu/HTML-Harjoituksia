@@ -33,11 +33,15 @@ section {
     margin-top: 20px;
     background-color: #056005;
 }
+body {
+    color: #7DCB7D; 
+    background-color: #056005;
+}
 article p {
     padding: 0px 0px 20px 5px;
 }
 article {
-    margin:0px 0px -20px 0px;
+    display:block;
 }
 main{
     display: flex;
@@ -68,40 +72,22 @@ p {
 li{
     padding:10px;
 }
-#kuva1 {
-    width:550px;
-    height:800px;
-    margin:30px 50px 0px 40px;
-}
-#kuva2 {
-    width: 550px;
-    height: 700px;
-    margin: 30px 50px 0px 40px;
-}
-.kuva3 {
-    width:300px;
-    height:120px;
-    margin:0px 0px 0px 40px;
-}
-.kuvateksti {
-    padding-left:40px;
-    margin-top:-1px
-}
+
 .lahde {
     text-align: right;
 }
 .ylareuna {
-    margin-top:-20px;
+    margin-top:-40px;
 }
 
 footer {
     background-color: #63AC63;
-    margin:-17px 0px 20px 0px;
+    margin-top:-17px;
     height:40px;
 }
 footer p{
     color:#000000;
-    padding:10px;
+    padding:10px 0 0 10px;
 }
 
 
