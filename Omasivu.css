@@ -5,17 +5,17 @@ html{
 header{
     background-color:#45A545;
     height:100px;
-    margin-top:20px;
+    margin:20px 0px 0px 0px;
 }
 h1 {
     color: #FFFFFF;
     padding: 22px 0 0 20px;
 }
 nav {
-    width: 400px;
+    width: 500px;
     height: 20px;
     background: #8BFC8B;
-    margin-left: 170px;
+    margin-left: 200px;
 }
 nav ul {
     margin: 0 0 0 -10px;
@@ -25,25 +25,33 @@ nav ul {
  nav li {
     float: left;
     list-style-type: none;
-    padding: 0 10px;
-        
+    padding: 0 10px; 
 }
 section {
-    width: 800px;
+    width:75%;
+    order: 1;
     margin-top: 20px;
     background-color: #056005;
 }
 article p {
-    padding: 10px;
+    padding: 0px 0px 20px 5px;
 }
 article {
-    padding-bottom:10px;
+    margin:0px 0px -20px 0px;
+}
+main{
+    display: flex;
+    overflow: hidden;
 }
 aside {
-    width: 200px;
+    width: 25%;
     background-color: #056005;
-    float: right;
-    margin-top: -5px;
+    flex: 1;
+    padding: 10px;
+    order: 2;
+}
+aside li {
+    margin-left:-10px;
 }
 h2 {
     color:#FFFFFF;
@@ -60,11 +68,40 @@ p {
 li{
     padding:10px;
 }
+#kuva1 {
+    width:550px;
+    height:800px;
+    margin:30px 50px 0px 40px;
+}
+#kuva2 {
+    width: 550px;
+    height: 700px;
+    margin: 30px 50px 0px 40px;
+}
+.kuva3 {
+    width:300px;
+    height:120px;
+    margin:0px 0px 0px 40px;
+}
+.kuvateksti {
+    padding-left:40px;
+    margin-top:-1px
+}
+.lähde {
+    text-align:right;
+}
+.yläreuna {
+    margin-top:-20px;
+}
+
 footer {
     background-color: #63AC63;
-    padding:1px;
+    margin:-17px 0px 20px 0px;
+    height:40px;
+}
+footer p{
+    color:#000000;
+    padding:10px;
     
 }
-p .lähde {
-    text-align:left;
-}
+
