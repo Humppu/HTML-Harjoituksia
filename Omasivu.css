@@ -87,10 +87,10 @@ li{
     padding-left:40px;
     margin-top:-1px
 }
-.lähde {
-    text-align:right;
+.lahde {
+    text-align: right;
 }
-.yläreuna {
+.ylareuna {
     margin-top:-20px;
 }
 
@@ -102,6 +102,6 @@ footer {
 footer p{
     color:#000000;
     padding:10px;
-    
 }
+
 
