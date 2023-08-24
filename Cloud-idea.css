@@ -1,0 +1,70 @@
+
+#logo {
+    display: block;
+    margin:auto;
+}
+#pilvi {
+    text-align:center;
+}
+#otsikko {
+    text-align: center; 
+}
+#eka {
+    float:left;
+    width:50%;
+    order:1;
+}
+#eka ul img {
+    float:left;
+    margin:0px 10px 0px 0px;
+}
+#toka {
+    float:right;
+    width: 200px;
+    order:2;
+}
+#form {
+    background-color: #E0E1DD;
+    padding: 20px 10px 20px 10px;
+    border:3px solid #0094ff;
+    overflow:auto;
+    clear:both;
+    border-radius: 10px;
+}
+#form div {
+    margin: 0px 0px 10px 0px;
+}
+#form label {
+    display:inline-block;
+    width: 150px;
+}
+#header {
+    border-bottom: 5px solid #0094ff;
+}
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+main{
+    display: table;
+    width:80%;
+    margin: 10px auto;
+    overflow:auto;
+}
+section {
+    display: table-row;
+    color: #CED4DA;
+}
+p {
+    margin: 10px 0px 10px 0px;
+    line-height: 1.5em;
+}
+footer {
+    text-align: center;
+    color: #CED4DA;
+}
+
