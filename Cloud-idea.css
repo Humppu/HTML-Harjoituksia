@@ -1,56 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+    box-sizing: border-box;
+}
 
 #logo {
     display: block;
     margin:auto;
 }
+
 #pilvi {
     text-align:center;
 }
+
 #otsikko {
-    text-align: center; 
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    color: #333333;
 }
+
 #eka {
     float:left;
-    width:50%;
-    order:1;
+    width:45%;
 }
-#eka ul img {
-    float:left;
-    margin:0px 10px 0px 0px;
+
+#eka ul li {
+    margin: 0 0 30px 0;
 }
+
+#eka ul img{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#eka ul h4 {
+    padding: 5px 0 0 0;
+}
+
 #toka {
     float:right;
-    width: 200px;
-    order:2;
+    width: 45%;
 }
+
 #form {
     background-color: #E0E1DD;
-    padding: 20px 10px 20px 10px;
+    padding: 30px 20px 20px 20px;
     border:3px solid #0094ff;
     overflow:auto;  
     border-radius: 10px;
+    margin: 20px 0 0 0;
 }
+
 #form div {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 20px 0px;
 }
+
 #form label {
     display:inline-block;
     width: 150px;
-}
-#header {
-    border-bottom: 5px solid #0094ff;
+    font-weight: bold;
 }
 
-#lähetä {
+#form input[type='text'],#form input[type='email'] {
+    height: 25px;
+    width: 50%;
+    border: 1px solid #CCCCCC;
+    border-radius:3px;
+}
+
+#form input[type='submit'] {
     background-color: #ff6a00;
     border-radius: 5px;
     border:none;
+    float:right;
+    padding:12px 17px 12px 17px;
+}
+
+#form input[type='submit']:hover {
+    background-color:#d97b14;
+    cursor: pointer;
+}
+
+#form #eka-footer p{
+    font-style:italic;
+    text-align:center;
 }
 
 
+#testimonials {
+    display: table-row;
+    margin: 40px 0 40px 0;
+    color: #CED4DA;
+}
+
+#testimonials blockquote {
+    padding: -30px 30px 20px 30px;
+    width: 90%;
+    margin: 0 40px 0 40px;
+    display:block;
+}
+
+#testimonials img {
+    float: left;
+    margin:0 20px 0 0;
+}
+
+
+#eka-footer {
+    border-top: 1px solid #DDDDDD;
+    margin: 0 0 20px 0;
+    padding: 0 0 10px 0;
+}
+
+#toka-footer {
+    text-align: center;
+    color: #CED4DA;
+    border-top:1px solid #dddddd;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.header {
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+}
+
+header {
+    border-bottom: 5px solid #0094ff;
+}
+
 body {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     line-height: 1.5em;
 }
 
@@ -59,22 +148,79 @@ main{
     width:80%;
     margin: 10px auto;
     overflow:auto;
+    background:#ffffff;
 }
+
 section {
     display: table-row;
 }
 
-section p {
-        color: #CED4DA;
-    }
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size:2.5em;
+    margin: 20px 0 10px 0;
+    line-height: 1em;
+}
+h2, h3, h4 {
+    font-family: 'Caveat', cursive;
+    margin: 10px 0 10px 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size:1.3em;
+}
+
+strong{
+    font-weight: bold;
+}
 
 p {
     margin: 10px 0px 10px 0px;
     line-height: 1.5em;
 }
-footer {
-    text-align: center;
-    color: #CED4DA;
+
+@media (max-width: 1023px) {
+ #container {
+     width: 80%;
+ }
+
+#eka, #toka {
+    width: 100%;
+    clear:both;
+    float:left;
+}
+
+#eka .pointit li{
+    width: 80%;
+    margin: 20px auto 30px;
+    background-color:#E0E1DD; 
+    border-radius:7px;
+    padding: 5px;
+}
+
+#eka .pointit img {
+    margin: 10px 0 0 0;
+}
+
+#testimonials img{
+    display: block;
+    margin: 20px auto 20px auto;
+    float: none;
+}
+
+h1 {
+    font-size: 2em;
+
 }
 
 

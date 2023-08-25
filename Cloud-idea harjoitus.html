@@ -4,13 +4,21 @@
     <title>Cloud-idea</title>
     <meta charset="8" />
     <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link href="reset.css" type="text/css" rel="stylesheet" />
     <link href="Cloud-idea.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <main>
-        <header id="header">
+        <header>
             <figure>
-            <img src="kuvat/logo.jpg"  id="logo" />
+            <img src="kuvat/logo.jpg"  id="logo" alt="Cloud-idea" />
             <p id="pilvi">Pilvi-idea</p>
             </figure>
         </header>
@@ -21,65 +29,64 @@
         <article id="eka">
             <ul class="pointit">
                 <li>
-                    <img src="kuvat/number1.png" />
+                    <img src="kuvat/number1.png" alt="Pointti 1" />
                     <h4>Ensimmäinen pointti</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum had been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </li>
                 <li>
-                    <img src="kuvat/number2.png" />
+                    <img src="kuvat/number2.png" alt="Pointti 2" />
                     <h4>Toinen pointti</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum had been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'</p>
                 </li>
                 <li>
-                    <img src="kuvat/number3.png" />
+                    <img src="kuvat/number3.png" alt="Pointti 3" />
                     <h4>Kolmas pointti</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum had been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </li>
-                <li>
+            </ul>
+                <footer id="eka-footer">
                     <h3>Tietoa meistä</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </li>
-            </ul>
+                </footer> 
         </article>  
         <article id="toka">
             <form id="form">
-                <header>
+                <header class="header">
                     <h3>Aloitus</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum had been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </header>
                 <div>
-                    <label>Nimi *</label>
-                    <input type="text" />
+                    <label for="name">Nimi *</label>
+                    <input id="name "type="text" />
                 </div>
                 <div>
-                    <label>Sähköposti *</label>
-                    <input type="text" />
+                    <label for="email">Sähköposti *</label>
+                    <input id="email" type="email" />
                 </div>
                 <div>
-                    <label>Yritys</label>
-                    <input type="text" />
+                    <label for="company">Yritys</label>
+                    <input id="company" type="text" />
                 </div>
                 <div>
-                    <label>Puhelinnumero</label>
-                    <input type="text" />
+                    <label for="phone">Puhelinnumero</label>
+                    <input id="phone" type="text" />
                 </div>
-                <div>
-                    <p>* Vaaditut kentät</p>
-                    <input id="lähetä" type="submit" value="Lähetä" />
+                <div class="clearfix">
+                    <em>* Vaaditut kentät</em>
+                    <input type="submit" value="Lähetä" />
                 </div>
                 <hr/>
                 <p>Emme koskaan jaa asiakastietoja eteenpäin millekkään yritykselle</p>
             </form>
         </article>
-                <section>
-                    <img src="kuvat/testimonial.png" />
-                    <p>
-                           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum had been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-                    </p>
+                <section id="testimonials">
+                    <img src="kuvat/testimonial.png" alt="Suositus"/>
+                    <blockquote>
+                           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum had been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make <strong>a type specimen book</strong>
+                    </blockquote>
                 </section>
-                <hr/>
-                <footer>
-                    <p>Copyright © Homam Al-mehsen, 2023</p>
+                <footer id="toka-footer">
+                    <small>Copyright © Homam Al-mehsen, 2023</small>
                 </footer>
     </main>
 </body>
